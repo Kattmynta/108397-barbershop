@@ -1,0 +1,27 @@
+﻿body {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+
+  color: #f7f4f1;
+  background-color: #777777; /* TODO удалить */
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+
+  color: #000000;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+
+  color: #000000;
+}
