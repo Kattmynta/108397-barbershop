@@ -11,8 +11,6 @@
 h1 {
   font-size: 30px;
   line-height: 42px;
-  font-weight: bold;
-  font-family: PT Sans Narrow;
 
   color: #000000;
 }
@@ -20,8 +18,32 @@ h1 {
 h2 {
   font-size: 30px;
   line-height: 42px;
-  font-weight: bold;
-  font-family: PT Sans Narrow;
 
   color: #000000;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.btn-social {
+  display: inline-block;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #000000; 
+  background-repeat: no-repeat;
+  background-position: 50% 50% 
+}
+
+.btn-social-vk {
+  background-image: url(../img/social-vk.png);
+}
+
+.btn-social-fb {
+  background-image: url(../img/social-facebook.png);
+}
+
+.btn-social-instagram {
+  background-image: url(../img/social-instagram.png);
 }

@@ -1,0 +1,123 @@
+﻿body {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: PT Sans Narrow;
+
+  color: #f7f4f1;
+  background-color: #777777; /* TODO удалить */
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.btn-social {
+  display: inline-block;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: 50% 50%
+}
+
+.btn-social-vk {
+  background-image: url(../img/social-vk.png);
+}
+
+.btn-social-fb {
+  background-image: url(../img/social-facebook.png);
+}
+
+.btn-social-instagram {
+  background-image: url(../img/social-instagram.png);
+}
+
+/*************************************************************************************************************/
+* {
+  border: 1px dashed yellow;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-content-left {
+  float: left;
+  width: 440px;
+}
+
+.index-content-right {
+  float: right;
+  width: 440px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.index-logo {
+  width: 368;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-menu {
+  float: left;
+}
+
+.user-block {
+  float: right;
+  margin-right: 20px;
+}
+
+.login {
+    display: inline-block;
+
+    padding: 10px 20px;
+}
+
+header ul {
+  font-size: 0;
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+
+  padding: 10px 20px;
+
+  font-size: 14px;
+}
+
+.footer-contacts {
+  float: left;
+  margin-right: 100px;
+}
+
+.footer-social {
+  float: left;
+}
+
+.footer-copyright {
+  float: right;
+}
